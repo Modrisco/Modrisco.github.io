@@ -14,7 +14,7 @@
   {% if site.social.github %}
   <!-- Github -->
   <li class="navigation__item">
-    <a href="https://github.com/{{site.social.github}}" title="@{{site.social.github}}'s Github" target="_blank">
+    <a href="https://github.com/{{site.social.github}}" title="@{{site.social.github}} 的 Github" target="_blank">
       <i class='social fa fa-github'></i>
       <span class="label">Github</span>
     </a>
@@ -34,13 +34,14 @@
   {% if site.social.linkedin %}
   <!-- LinkedIn -->
   <li class="navigation__item">
-    <a href="https://linkedin.com/in/{{site.social.linkedin}}" title="LinkedIn" target="_blank">
+    <a href="https://www.linkedin.com/in/menglingxu/" title="LinkedIn" target="_blank">
       <i class='social fa fa-linkedin'></i>
       <span class="label">LinkedIn</span>
     </a>
   </li>
   {% endif %}
 
+  {% if site.social.instagram %}
   <!-- Instagram -->
   <li class="navigation__item">
     <a href="http://instagram.com/{{site.social.instagram}}" title="@{{site.social.instagram}}" target="_blank">
@@ -49,6 +50,8 @@
     </a>
   </li>
   {% endif %}
+
+  {% if site.social.mail %}
   <!-- Email -->
   <li class="navigation__item">
     <a href="mailto:{{site.social.mail}}" title="Contact me">
