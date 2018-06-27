@@ -4,7 +4,7 @@
   {% if site.social.weibo %}
   <!-- Weibo -->
   <li class="navigation__item">
-    <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}} 的微博" target="_blank">
+    <a href="http://weibo.com/menglingxu" title="@{{site.social.weibo}} 的微博" target="_blank">
       <i class='social fa fa-weibo'></i>
       <span class="label">Weibo</span>
     </a>
@@ -14,7 +14,7 @@
   {% if site.social.github %}
   <!-- Github -->
   <li class="navigation__item">
-    <a href="https://github.com/{{site.social.github}}" title="@{{site.social.github}} 的 Github" target="_blank">
+    <a href="https://github.com/{{site.social.github}}" title="@{{site.social.github}}'s Github" target="_blank">
       <i class='social fa fa-github'></i>
       <span class="label">Github</span>
     </a>
@@ -31,25 +31,24 @@
   </li>
   {% endif %}
 
-  {% if site.social.gplus %}
-  <!-- Google Plus -->
+  {% if site.social.linkedin %}
+  <!-- LinkedIn -->
   <li class="navigation__item">
-    <a href="https://plus.google.com/{{site.social.gplus}}" rel="author" title="Google+" target="_blank">
-      <i class='social fa fa-google-plus-square'></i>
-      <span class="label">Google Plus</span>
+    <a href="https://linkedin.com/in/{{site.social.linkedin}}" title="LinkedIn" target="_blank">
+      <i class='social fa fa-linkedin'></i>
+      <span class="label">LinkedIn</span>
     </a>
   </li>
   {% endif %}
 
-  <!-- RSS -->
+  <!-- Instagram -->
   <li class="navigation__item">
-    <a href="/feed.xml" rel="author" title="RSS" target="_blank">
-      <i class='social fa fa-rss'></i>
-      <span class="label">RSS</span>
+    <a href="http://instagram.com/{{site.social.instagram}}" title="@{{site.social.instagram}}" target="_blank">
+      <i class='social fa fa-instagram'></i>
+      <span class="label">Instagram</span>
     </a>
   </li>
-
-  {% if site.social.mail %}
+  {% endif %}
   <!-- Email -->
   <li class="navigation__item">
     <a href="mailto:{{site.social.mail}}" title="Contact me">
