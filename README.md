@@ -1,6 +1,6 @@
 # Personal Blog
 
-This is my personal website using to write blog in learning and my life. My social media website more personal information are also shown. Please feel free to teach or ask me. I'm passionate in learning and making friends.
+This is my personal website using to write blog in learning and my life using Vno template. My social media website more personal information are also shown. Please feel free to teach or ask me. I'm passionate in learning and making friends.
 
 ## Vno - Jekyll
 
