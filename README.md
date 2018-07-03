@@ -1,16 +1,10 @@
 # Personal Blog
 
-This is my personal website using to write blog in learning and my life using Vno template. My social media website more personal information are also shown. Please feel free to teach or ask me. I'm passionate in learning and making friends.
+This is my personal website using to write blog in learning and my life using [Vno Jekyll](http://vno.onevcat.com). My social media website more personal information are also included. Please feel free to teach or ask me. I'm passionate in learning and making friends.
 
 ## Vno - Jekyll
 
-[Vno Jekyll](https://github.com/onevcat/vno-jekyll) is a theme for [Jekyll](http://jekyllrb.com). It is a port of my Ghost theme [vno](https://github.com/onevcat/vno), which is originally developed from [Dale Anthony's Uno](https://github.com/daleanthony/uno).
-
-## Live Demo
-
-See [Vno - Jekyll](http://vno.onevcat.com) site and [my blog](http://onevcat.com).
-
-You can also find some instruction as well as other sites using Vno theme in [this page](http://vno.onevcat.com/2016/02/hello-world-vno/).
+[Vno Jekyll](https://github.com/onevcat/vno-jekyll) is a theme for [Jekyll](http://jekyllrb.com). It is a port of  my Ghost theme [vno](https://github.com/onevcat/vno), which is originally developed from [Dale Anthony's Uno](https://github.com/daleanthony/uno).
 
 ## Licence
 
