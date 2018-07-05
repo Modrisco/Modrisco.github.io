@@ -3,7 +3,6 @@ layout: post
 title: Markdown learning notebook 01
 date: 2018-07-05 17:32:24.000000000 +10:00
 ---
-# Markdown learning notebook 01
 ### 1. What is Markdown?
 [Markdown](https://en.wikipedia.org/wiki/Markdown) is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML and many other formats using a tool by the same name. 
 ### 2. Why Markdown?
