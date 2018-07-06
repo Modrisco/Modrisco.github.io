@@ -22,11 +22,11 @@ Almost the same as HTML language, Markdown use '#' to state the title, comparing
 * `*Italic*` ---- *Italic*
 * `_Italic_` ---- _Italic_
 #### 3.3 Picture and link
-##### Picture
+##### _Picture_
 * `![Picture](Picture's link)` 
 * `![Picture](https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-preview-github-styles/0.1.2/1522713529956/Microsoft.VisualStudio.Services.Icons.Default)`
 ![Picture](https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-preview-github-styles/0.1.2/1522713529956/Microsoft.VisualStudio.Services.Icons.Default)
-##### Link
+##### _Link_
 * `[Link name](Link address)`
 * `[My website](www.mlx7.xyz)`
 * [My webstie](www.mlx7.xyz)
