@@ -28,8 +28,6 @@ Almost the same as HTML language, Markdown use '#' to state the title, comparing
 ![Picture](https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-preview-github-styles/0.1.2/1522713529956/Microsoft.VisualStudio.Services.Icons.Default)
 ##### _Link_
 * `[Link name](Link address)`
-* `[My website](www.mlx7.xyz)`
-* [My webstie](www.mlx7.xyz)
 #### 3.4 Reference
 * `> Here is a reference`
 * > Here is a referece. And here is more indroduction to Markdown https://en.support.wordpress.com/markdown-quick-reference/
