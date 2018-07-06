@@ -23,23 +23,21 @@ Almost the same as HTML language, Markdown use '#' to state the title, comparing
 * `__Bold__` ---- __Bold__
 * `*Italic*` ---- *Italic*
 * `_Italic_` ---- _Italic_
-
+ 
 
 #### 3.3 Picture and link
 ##### _Picture_
 * `![Picture](Picture's link)` 
 * `![Picture](https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-preview-github-styles/0.1.2/1522713529956/Microsoft.VisualStudio.Services.Icons.Default)`
 ![Picture](https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-preview-github-styles/0.1.2/1522713529956/Microsoft.VisualStudio.Services.Icons.Default)
-
-
 ##### _Link_
 * `[Link name](Link address)`
-
+ 
 
 #### 3.4 Reference
 * `> Here is a reference`
 * > Here is a referece. And here is more indroduction to Markdown https://en.support.wordpress.com/markdown-quick-reference/
-
+ 
 
 #### 3.5 Code inserting
 ````python
