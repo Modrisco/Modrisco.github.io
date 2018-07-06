@@ -29,10 +29,17 @@ Almost the same as HTML language, Markdown use '#' to state the title, comparing
 ##### _Picture_
 * `![Picture](Picture's link)` 
 * `![Picture](https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-preview-github-styles/0.1.2/1522713529956/Microsoft.VisualStudio.Services.Icons.Default)`
+
+
 ![Picture](https://bierner.gallerycdn.vsassets.io/extensions/bierner/markdown-preview-github-styles/0.1.2/1522713529956/Microsoft.VisualStudio.Services.Icons.Default)
+
+
 ##### _Link_
-* `[Link name](Link address)`
- 
+* `[Link name](Link address 'Text')`
+* `[YouTube](https://youtube.com 'YouTube')`
+
+
+[YouTube](https://youtube.com 'YouTube') 
 
 #### 3.4 Reference
 * `> Here is a reference`
@@ -44,7 +51,3 @@ Almost the same as HTML language, Markdown use '#' to state the title, comparing
 def function():
     print('Hello World')
 ````
-
-
-
-
