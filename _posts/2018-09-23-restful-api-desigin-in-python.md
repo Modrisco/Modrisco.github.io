@@ -21,6 +21,7 @@ This tool is developed by Python, using data from World Bank. Data is stored in 
 
 #### 2.3 Connect to mLab
 First, import pymongo
+
 `pip install pymongo`
 
 Use your own mLab database parameter to build connection
@@ -37,4 +38,25 @@ db = connection[DB_NAME]
 db.authenticate(DB_USER, DB_PASS)
 ```
 
-return appropriate [HTTP status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
+### 3 Implementation
+#### 3.1 Import a collection from the data service
+This operation can be considered as an on-demand 'import' operation. The service will download the JSON data for all countries respective to the year 2012 to 2017 and identified by the indicator id given by the user and process the content into an internal data format and store it in the database ( mLab ). API should return appropriate [HTTP status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
+
+`HTTP operation: POST /<collections>`
+
+
+```python
+# Create new collection in database
+# db[*] can name a collection using variable, db.* can not
+collection_id = "new_collection_id"
+new_collection = db[collection_id]
+# Insert collection json as document
+new_collection.insert_one(collection)
+```
+
+
+#### 3.2 Deleting a collection with the data service
+#### 3.3 Retrieve the list of available collections
+#### 3.4 Retrieve a collection
+#### 3.5 Retrieve economic indicator value for given country and a year
+#### 3.6 Retrieve top/bottom economic indicator values for a given year
