@@ -1,7 +1,8 @@
-- - - -
+---
 layout: post
 title: RESTful API design in Python
 date: 2018-09-23 13:28:49.000000000 +10:00
+---
 ### 1.  RESTful API and application
 Representational State Transfer (REST) is an architectural style that defines a set of constraints to be used for creating web services. Web services that conform to the REST architectural style, or RESTful web services, provide interoperability between computer systems on the Internet. REST-compliant web services allow the requesting systems to access and manipulate textual representations of web resources by using a uniform and predefined set of stateless operations. Other kinds of web services, such as SOAP web services, expose their own arbitrary sets of operations.
 The World Bank indicators API provides 50 year of data over more than 1500 indicators for countries around the world.
