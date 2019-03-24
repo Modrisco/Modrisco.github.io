@@ -1,10 +1,10 @@
 # Basic
-title: Joseph Meng
+title: Modrisco
 subtitle: Joseph Meng's personal blog
 description: Information Technology student graduated from BUPT and now learning in UNSW.
-creator: <a href="http://github.com/JosephMLX">@JosephMLX</a>
+creator: <a href="http://github.com/Modrisco">@Modrisco</a>
 
-url: "http://vno.onevcat.com"
+url: "http://mlx7.xyz"
 
 permalink: /:year/:month/:title/
 
@@ -37,7 +37,7 @@ comment:
 # Social
 social:
     facebook: Joseph Lingxu Meng
-    github: JosephMLX
+    github: Modrisco
     twitter: MENG_LINGXU
     linkedin: Meng Lingxu
     instagram: joseph.l.meng
