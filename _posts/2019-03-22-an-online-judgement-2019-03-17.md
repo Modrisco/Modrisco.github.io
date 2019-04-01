@@ -29,7 +29,7 @@ if __name__ == '__main__':
 Difficulity: ✩✩
 > Give a string s, make a statistic of letters and order by frequency, if several letters have the same frequency, order by natural order (a-z)
 Input: hufosniuosfbyvgugbyuceca
-Output: 
+Output: u:4; b:2; c:2; f:2; g:2; o:2; s:2; y:2; a:1; e:1; h:1; i:1; n:1; v:1;
  
  
  Firstly, for python, this is a hash problem, make a dict and a counter will help to make this statistic.
@@ -65,5 +65,45 @@ print(output)
 Now, we are done~
 
 ### 3 Decimal to letter
+Difficulity: ✩✩
+Same as Leetcode 168 [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/).
+> Given a list of positive integers, return a list of corresponding column titles as appear in an Excel sheet.
+ Translate rule:
+    1 -> A, 2 -> B, 3 -> C ... 26 -> Z, 27 -> AA, 28 -> AB .... 
+Input: [1, 28, 701]
+Output: ["A", "AB", "ZY"]
 
+Let's see the relationship between the Excel sheet column title and the number:
+```
+A   1     AA    26+ 1     BA  2×26+ 1     ...     ZA  26×26+ 1     AAA  1×26²+1×26+ 1
+B   2     AB    26+ 2     BB  2×26+ 2     ...     ZB  26×26+ 2     AAB  1×26²+1×26+ 2
+.   .     ..    .....     ..  .......     ...     ..  ........     ...  .............   
+.   .     ..    .....     ..  .......     ...     ..  ........     ...  .............
+.   .     ..    .....     ..  .......     ...     ..  ........     ...  .............
+Z  26     AZ    26+26     BZ  2×26+26     ...     ZZ  26×26+26     AAZ  1×26²+1×26+26
+```
+Now we can see that `ABCD＝A×26³＋B×26²＋C×26¹＋D＝1×26³＋2×26²＋3×26¹＋4`
+But how to get the column title from the number? We can't simply use the n%26 method because:
+`ZZZZ＝Z×26³＋Z×26²＋Z×26¹＋Z＝26×26³＋26×26²＋26×26¹＋26`
+We can use (n-1)%26 instead, then we get a number range from 0 to 25.
+
+Code:
+``` python
+def convertToTitle(n: int) -> str:
+    import string
+    letters = list(string.ascii_uppercase)
+    result = []
+    if n == 0:
+        return ""
+    while n > 0:
+        result.append(letters[(n-1) % 26])
+        n = (n - 1) // 26
+    return ''.join(result[::-1])
+
+if __name__ == "__main__":
+    numbers = input()
+    return [convertToTitle(number) for number in numbers]
+```
+
+Welcome to share any interview questions and discuss together~
 
