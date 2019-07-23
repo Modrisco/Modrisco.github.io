@@ -4,9 +4,6 @@ title: Vim 入门：基础
 date: 2019-04-20 23:28:49.000000000 +10:00
 ---
 
-Vim 入门：基础
-======
-
 > 为工作或者新项目学习足够的 Vim 知识。
 
 ![Person standing in front of a giant computer screen with numbers, data][1]
