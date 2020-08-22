@@ -192,25 +192,25 @@ via: https://opensource.com/article/19/3/getting-started-vim
 
 [a]: https://opensource.com/users/brson
 [b]: https://github.com/lujun9972
-[1]: https://opensource.com/sites/default/files/styles/image-full-size/public/lead-images/data_metrics_analytics_desktop_laptop.png?itok=9QXd7AUr (Person standing in front of a giant computer screen with numbers, data)
-[2]: https://opensource.com/sites/default/files/uploads/1_xkcdcartoon.jpg (Real Programmers comic)
+[1]: https://opensource.com/sites/default/files/styles/image-full-size/public/lead-images/data_metrics_analytics_desktop_laptop.png?itok=9QXd7AUr "Person standing in front of a giant computer screen with numbers, data"
+[2]: https://opensource.com/sites/default/files/uploads/1_xkcdcartoon.jpg "Real Programmers comic"
 [3]: https://xkcd.com/378/
 [4]: https://kate-editor.org
 [5]: https://www.nano-editor.org
 [6]: https://www.vim.org
 [7]: https://www.gnu.org/software/emacs
-[8]: https://opensource.com/sites/default/files/uploads/2_createtestfolder.jpg (Create a folder)
-[9]: https://opensource.com/sites/default/files/uploads/4_existingvim.jpg (Editing Vim)
-[10]: https://opensource.com/sites/default/files/uploads/6_insertionmode.jpg (Vim insert mode)
+[8]: https://opensource.com/sites/default/files/uploads/2_createtestfolder.jpg "Create a folder"
+[9]: https://opensource.com/sites/default/files/uploads/4_existingvim.jpg "Editing Vim"
+[10]: https://opensource.com/sites/default/files/uploads/6_insertionmode.jpg "Vim insert mode"
 [11]: http://www.google.com/search?hl=en&q=allinurl%3Adocs.oracle.com+javase+docs+api+string
-[12]: https://opensource.com/sites/default/files/uploads/10_setnumberresult_0.jpg (Showing Line Numbers)
-[13]: https://opensource.com/sites/default/files/uploads/12_jumpintoline3.jpg (Jump to line 3)
-[14]: https://opensource.com/sites/default/files/uploads/14_gotolastcharacter.jpg (Go to the last character)
-[15]: https://opensource.com/sites/default/files/uploads/15_deletinglines.jpg (Deleting A Line)
-[16]: https://opensource.com/sites/default/files/uploads/16_undoingtheline.jpg (Undoing a change in Vim)
-[17]: https://opensource.com/sites/default/files/uploads/17_highlighting.jpg (Highlighting text in Vim)
-[18]: https://opensource.com/sites/default/files/uploads/19_pasting.jpg (Pasting in Vim)
-[19]: https://opensource.com/sites/default/files/uploads/22_searchmode.jpg (Searching in Vim)
-[20]: https://opensource.com/sites/default/files/uploads/26_copytonewfiles.jpg (Split mode in Vim)
-[21]: https://opensource.com/sites/default/files/uploads/27_exercise.jpg (Modify GoodBye.java file in Split Mode)
+[12]: https://opensource.com/sites/default/files/uploads/10_setnumberresult_0.jpg "Showing Line Numbers"
+[13]: https://opensource.com/sites/default/files/uploads/12_jumpintoline3.jpg "Jump to line 3"
+[14]: https://opensource.com/sites/default/files/uploads/14_gotolastcharacter.jpg "Go to the last character"
+[15]: https://opensource.com/sites/default/files/uploads/15_deletinglines.jpg "Deleting A Line"
+[16]: https://opensource.com/sites/default/files/uploads/16_undoingtheline.jpg "Undoing a change in Vim"
+[17]: https://opensource.com/sites/default/files/uploads/17_highlighting.jpg "Highlighting text in Vim"
+[18]: https://opensource.com/sites/default/files/uploads/19_pasting.jpg "Pasting in Vim"
+[19]: https://opensource.com/sites/default/files/uploads/22_searchmode.jpg "Searching in Vim"
+[20]: https://opensource.com/sites/default/files/uploads/26_copytonewfiles.jpg "Split mode in Vim"
+[21]: https://opensource.com/sites/default/files/uploads/27_exercise.jpg "Modify GoodBye.java file in Split Mode"
 [22]: https://opensource.com/downloads/cheat-sheet-vim
